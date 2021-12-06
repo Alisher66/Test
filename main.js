@@ -1,3 +1,11 @@
-import {js} from './data.js';
+// import {js} from './data.js';
+import { users} from './classes.js';
+import { Testing } from './testing.js';
 
-console.log(js[0]);
+const quarterTest = new Testing();
+quarterTest.initialization();
+quarterTest.start();
+
+
+console.log(users);
+
