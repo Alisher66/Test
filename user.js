@@ -6,7 +6,10 @@ class User {
     }
 
     get fullname() {
-        return this._fullname.trim();
+        return this._fullname;
+    }
+    set fullname(value) {
+        this._fullname = value.trim();
     }
     addData(subject, countOfTest, correct) {
         usersDB.push({
