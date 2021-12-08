@@ -1,56 +1,199 @@
 const JavaScript = [
-    {
-        question: "Верно ли сравнение: \"ёжик\" > \"яблоко\"?",
+    {   
+        question: "Вопрос 1",
         variantes: {
-            a: "Да",
-            b: "Нет",
-            c: "Зависит от локальных настроек браузера",
-            d: "Нет правельных ответа"
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "a"
+    },
+    {
+        question: "Вопрос 2",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
         },
         answer: "b"
     },
     {
-        question: "Что делает оператор ** ?",
+        question: "Вопрос 3",
         variantes: {
-            a: "Возводит в степень",
-            b: "Умножает число само на себя.",
-            c: "Нет такого оператора",
-            d: "Умножает на двойку"
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
         },
-        answer: "a"
+        answer: "c"
     },
     {
-        question: "Чему равна сумма [] + 1 + 2?",
+        question: "Вопрос 4",
         variantes: {
-            a: "1",
-            b: "NaN",
-            c: "undefined",
-            d: "12"
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
         },
         answer: "d"
     },
     {
-        question: "Что выведет этот код? alert( +\"Infinity\" );",
+        question: "Вопрос 5",
         variantes: {
-            a: "Infinity",
-            b: "NaN",
-            c: "0",
-            d: "Будет ошибка."
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
         },
         answer: "a"
     },
     {
-        question: "Верно ли, что null == undefined?",
+        question: "Вопрос 6",
         variantes: {
-            a: "Да",
-            b: "Нет",
-            c: "не определено",
-            d: "Будет ошибка."
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "b"
+    },
+    {
+        question: "Вопрос 7",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "c"
+    },
+    {
+        question: "Вопрос 8",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "d"
+    },
+    {
+        question: "Вопрос 9",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
         },
         answer: "a"
     },
     {
-        question: "Что выведет этот код? alert( \"1\"[0] );",
+        question: "Вопрос 10",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "b"
+    },
+];
+
+const Html = [
+    {   
+        question: "Вопрос 1",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "a"
+    },
+    {
+        question: "Вопрос 2",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "b"
+    },
+    {
+        question: "Вопрос 3",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "c"
+    },
+    {
+        question: "Вопрос 4",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "d"
+    },
+    {
+        question: "Вопрос 5",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "a"
+    },
+    {
+        question: "Вопрос 6",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "b"
+    },
+    {
+        question: "Вопрос 7",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "c"
+    },
+    {
+        question: "Вопрос 8",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "d"
+    },
+    {
+        question: "Вопрос 9",
+        variantes: {
+            a: "0",
+            b: "1",
+            c: "2",
+            d: "undefined"
+        },
+        answer: "a"
+    },
+    {
+        question: "Вопрос 10",
         variantes: {
             a: "0",
             b: "1",
@@ -65,5 +208,4 @@ const JavaScript = [
 
 
 
-
-export {JavaScript as js};
+export {JavaScript as js, Html as html};

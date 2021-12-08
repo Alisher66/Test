@@ -1,11 +1,13 @@
 // import {js} from './data.js';
-import { users} from './classes.js';
+import { usersDB} from './user.js';
 import { Testing } from './testing.js';
 
 const quarterTest = new Testing();
-quarterTest.initialization();
+
+quarterTest.init();
 quarterTest.start();
 
 
-console.log(users);
+
+console.log(usersDB);
 
